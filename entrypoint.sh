@@ -5,6 +5,9 @@ source /config.sh
 
 export PACKAGE_NAME=$IMAGE_NAME
 
+# Set PYTHONPATH
+export PYTHONPATH=/app
+
 # Function to install package in editable mode if needed
 pip install -e $IMAGE_NAME
 
