@@ -1,0 +1,3 @@
+IMAGE_NAME="my_project"
+CONTAINER_NAME="${IMAGE_NAME}_runtime"
+APP_PATH="app/${IMAGE_NAME}"
