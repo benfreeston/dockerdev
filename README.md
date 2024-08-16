@@ -8,7 +8,8 @@ Sometimes I want to be able to build little web servers. I use dash.
 The project is containerized using Docker. To run the project, you need to have Docker installed on your machine.
 
 Edit config.sh and change IMAGE_NAME to the name of your project. This will be both the name of the container
-and the python project within the container.
+and the python project within the container. You can change the folder 'my_project' to match this, or this 
+will be done dynamically as part of the build on each run.
 
 The easiest way to run the container is to use the bundled `start.sh` script. 
 

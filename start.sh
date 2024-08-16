@@ -3,9 +3,9 @@
 source ./config.sh
 
 # Check if source and destination are the same
-if [ "app/bantham_ai" != "$APP_PATH" ]; then
+if [ "app/my_project" != "$APP_PATH" ]; then
   # Rename the folder app/bantham_ai to app/IMAGE_NAME if they are different
-  mv "app/bantham_ai" "$APP_PATH"
+  mv "app/my_project" "$APP_PATH"
 else
   echo "Source and destination are the same, skipping mv"
 fi
