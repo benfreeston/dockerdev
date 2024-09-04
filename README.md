@@ -1,7 +1,8 @@
 # Development Container
 
 I like to play with data and ideas. I like docker for portability. I like to use notebooks, but I also like to run stuff in bash.
-Sometimes I want to be able to build little web servers. I use dash.
+Sometimes I want to be able to build little web servers. I use dash. This is a simple little container that allows all these things to happen. It binds
+the local folder to the remote so code can be edited while running. 
 
 ## Setup
 
